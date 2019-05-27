@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>GPA Calculator</title>
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" type="text/css" href="gstyles.css">
+    </head>
+    
+    <body>
+        <div id="container">
+            <h1>GPA calculator</h1>
+            <div id="gpa">
+                <form>
+                    <label>
+                        What was your grade?<br>
+                        <select id="grade">
+                            <option value="0.0">F</option>
+                            <option value="1.0">D</option>
+                            <option value="1.7">C-</option>
+                            <option value="2.0">C</option>
+                            <option value="2.3">C+</option>
+                            <option value="2.7">B-</option>
+                            <option value="3.0">B</option>
+                            <option value="3.3">B+</option>
+                            <option value="3.7">A-</option>
+                            <option value="4.0">A</option>
+                            <option value="4.3">A+</option>
+                        </select>
+                    </label>
+                    <button type="button" id="calculate">Calculate</button>
+                </form>
+            </div> <!--calculate average gpa-->
+            <div id="num">
+                <sup>Total course taken=</sup><span id="course">0</span>
+            </div>
+            <div id="average">
+                <sup>Average GPA=</sup><span id="av">0.0</span>
+            </div>
+        </div>
+        <script type="text/javascript" src="gscript.js"></script>
+    </body>
+    
+    
+</html>
