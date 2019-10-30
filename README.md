@@ -1,4 +1,4 @@
-gpa-calculator
+GPA-calculator
 
 This project is a webpage that uses JavaScript to allow students to see how they stand academically
 
@@ -17,9 +17,7 @@ Key features:
   
   
   
-  
-  
-  \n
+
   
   
   
