@@ -11,6 +11,10 @@
             <div id="gpa">
                 <form>
                     <label>
+                        <form>
+                            What was the course name? <br>
+                            <input type="text" id="coursenamed"> <br>
+                        </form>
                         What was your grade?<br>
                         <select id="grade">
                             <option value="0.0">F</option>
@@ -25,8 +29,20 @@
                             <option value="4.0">A</option>
                             <option value="4.3">A+</option>
                         </select>
+                        <br>
+                        How many credit is it?<br>
+                        <select id="credithours">
+                            <option value="3.0">3.0 credit hours</option>
+                            <option value="6.0">6.0 credit hours</option>                       
+                        </select>
+
                     </label>
+                    <button type="button" id="add">Add</button>
+                    <ol id="listofgrades">
+                    </ol>
+                    <button type="button" id="delete">Clear</button>
                     <button type="button" id="calculate">Calculate</button>
+
                 </form>
             </div> <!--calculate average gpa-->
             <div id="num">
@@ -35,6 +51,20 @@
             <div id="average">
                 <sup>Average GPA=</sup><span id="av">0.0</span>
             </div>
+
+            <br>
+            Scale:<br>
+            A+ &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp4.3<br>
+            A&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp4.0<br>
+            A- &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp3.7<br>
+            B+ &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp3.3<br>
+            B&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp3.0<br>
+            B-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2.7<br>
+            C+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2.3<br>
+            C&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2.0<br>
+            C-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp1.7<br>
+            D&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp1.0<br>
+            F&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp0.0<br>
         </div>
         <script type="text/javascript" src="gscript.js"></script>
     </body>
