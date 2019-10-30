@@ -15,7 +15,11 @@ Key features:
   
   5-By clicking "Clear", this app will delete the list and reset everything.
   
+  
+  
 Screenshots:
+
+
 ![Alt text](https://github.com/JBV777/gpa-calculator/blob/master/5.png)
 ![Alt text](https://github.com/JBV777/gpa-calculator/blob/master/6.png)
 ![Alt text](https://github.com/JBV777/gpa-calculator/blob/master/7.png)
