@@ -23,8 +23,6 @@ Key features:
   
 Screenshots:
 
-
-![Alt text](https://github.com/JBV777/gpa-calculator/blob/master/5.png)
 ![Alt text](https://github.com/JBV777/gpa-calculator/blob/master/6.png)
 ![Alt text](https://github.com/JBV777/gpa-calculator/blob/master/7.png)
 ![Alt text](https://github.com/JBV777/gpa-calculator/blob/master/8.png)
