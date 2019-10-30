@@ -6,4 +6,4 @@ Developed By: Shen Xu shenxu183@yahoo.com
 
 Screenshots:
 ![Alt text](https://github.com/JBV777/gpa-calculator/blob/master/Screenshots/1.png)
-![Alt text](https://github.com/JBV777/gpa-calculator/blob/master/5.png)
+![Alt text](https://github.com/JBV777/gpa-calculator/blob/master/5.png) (width=1)
